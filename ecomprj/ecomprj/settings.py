@@ -94,24 +94,24 @@ WSGI_APPLICATION = 'ecomprj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd24k9pnum9njkj',
-        'USER': 'bcbklhuhyqcobo',
-        'PASSWORD': '2e6e1c2960a76b3e4e55c0f6eec1df4b0d67eb177999b331fef668cb158795cb',
-        'HOST': 'ec2-54-73-22-169.eu-west-1.compute.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'd24k9pnum9njkj',
+#         'USER': 'bcbklhuhyqcobo',
+#         'PASSWORD': '2e6e1c2960a76b3e4e55c0f6eec1df4b0d67eb177999b331fef668cb158795cb',
+#         'HOST': 'ec2-54-73-22-169.eu-west-1.compute.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
 
 
 
